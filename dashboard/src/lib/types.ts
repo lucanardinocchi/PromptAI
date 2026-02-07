@@ -14,6 +14,7 @@ export interface Company {
   industry: string | null
   size: string | null
   location: string | null
+  stripe_customer_id: string | null
 }
 
 export interface Contact {

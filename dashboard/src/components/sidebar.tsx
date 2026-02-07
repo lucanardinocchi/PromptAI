@@ -10,6 +10,7 @@ import {
   User,
   LifeBuoy,
   FileText,
+  Receipt,
   LogOut,
 } from "lucide-react"
 
@@ -22,6 +23,7 @@ interface SidebarProps {
 const execLinks = [
   { href: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
   { href: "/support", label: "Support", icon: LifeBuoy },
+  { href: "/invoices", label: "Invoices", icon: Receipt },
   { href: "/reports", label: "Reports", icon: FileText },
 ]
 
